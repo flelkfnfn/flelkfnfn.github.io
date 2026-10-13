@@ -1,0 +1,1 @@
+import{n as t}from"./dates.CSiJLZ4Q.js";import{l as o,y as l}from"./countdown.QYlcjTvk.js";const e=document.getElementById("local-reset");if(e)try{e.textContent=`지금 계신 곳 기준으로는 ${o(t())}${l()}예요.`,e.hidden=!1}catch{}

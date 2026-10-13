@@ -1,0 +1,1 @@
+import{n}from"./dates.CSiJLZ4Q.js";const t=document.getElementById("local-reset");if(t)try{const e=new Date(n()).toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});t.textContent=`In your time zone, that’s ${e}.`,t.hidden=!1}catch{}

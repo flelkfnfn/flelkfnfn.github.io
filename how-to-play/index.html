@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-5hce7sga> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>How to play · NameYear</title><meta name="description" content="Rules, scoring and FAQ for NameYear: guess the birth year from a class roster of six U.S. first names. Five rounds, up to 5,000 points a day."><link rel="canonical" href="https://nameyear.com/how-to-play/"><link rel="alternate" hreflang="en" href="https://nameyear.com/how-to-play/"><link rel="alternate" hreflang="ko" href="https://nameyear.com/ko/how-to-play/"><link rel="alternate" hreflang="x-default" href="https://nameyear.com/how-to-play/"><script>
+        // never index the temporary github.io address, even if a staging build forgot NOINDEX=1
+        if (/\.github\.io$/.test(location.hostname)) {
+          var m = document.createElement('meta');
+          m.name = 'robots';
+          m.content = 'noindex';
+          document.head.appendChild(m);
+        }
+      </script><meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta property="og:type" content="website"><meta property="og:site_name" content="NameYear"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="ko_KR"><meta property="og:title" content="How to play · NameYear"><meta property="og:description" content="Rules, scoring and FAQ for NameYear: guess the birth year from a class roster of six U.S. first names. Five rounds, up to 5,000 points a day."><meta property="og:url" content="https://nameyear.com/how-to-play/"><meta property="og:image" content="https://nameyear.com/og/default.png"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is every puzzle fair?","acceptedAnswer":{"@type":"Answer","text":"Every roster passes a fairness check before it’s used. We take the six names and score every birth year from 1925 to 2025 by how common those names were among U.S. babies born that year. A roster only makes the cut if the data’s best guess lands within 2 years of the answer and the range holding 80% of the likelihood is narrow: 10 to 18 years wide, depending on the round. The two hint names have to keep the best guess within 2 years too. Rosters that fail are thrown out and redrawn. Nobody hand-picks them."}},{"@type":"Question","name":"Why does a 1960s name show up in 2018?","acceptedAnswer":{"@type":"Answer","text":"Because names don’t belong to just one era. Every name on a roster was genuinely common in the answer year, but common isn’t the same as peaking. Michael peaked in 1969 and still went to 11,756 boys in 2018. Other names skip a generation or two and come back: Evelyn went to 1,302 girls born in 1990 and 10,433 born in 2018. One name rarely gives the year away. Six together usually do."}},{"@type":"Question","name":"Where does the data come from?","acceptedAnswer":{"@type":"Answer","text":"From the U.S. Social Security Administration’s public baby-name files, which count first names on Social Security card applications for babies born in the United States. The game uses births from 1925 to 2025. Sources, limits and checksums are on the Data page."}},{"@type":"Question","name":"Do you collect my data?","acceptedAnswer":{"@type":"Answer","text":"Not the personal kind. There are no accounts. Your guesses, scores and streak are saved in your browser’s local storage, not on our servers. If analytics is turned on, we count visits and anonymous game events, like finishing a puzzle and the score, to see how hard puzzles are. Ads may use cookies. The Privacy page has the details."}},{"@type":"Question","name":"Does everyone get the same puzzle?","acceptedAnswer":{"@type":"Answer","text":"Yes. Everyone plays the same five rosters each day, so you can compare scores with friends. A new puzzle unlocks at 08:00 UTC."}},{"@type":"Question","name":"Can I play puzzles I missed?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every past puzzle is in the Archive. Archive games are just for fun and don’t count toward your streak."}}]}</script><meta name="google-adsense-account" content="ca-pub-7036871703772046"><script async src="https://www.googletagmanager.com/gtag/js?id=G-99EV6E098T"></script><script>(function(){const id = "G-99EV6E098T";
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+          // Consent Mode: no analytics or ad cookies in the EEA, UK and Switzerland until the visitor agrees in the
+          // Google consent message (AdSense > Privacy & messaging, with consent mode on). Granted elsewhere.
+          gtag('consent', 'default', {
+            ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+            wait_for_update: 500,
+            region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL',
+              'PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],
+          });
+          gtag('consent', 'default', {
+            ad_storage: 'granted', analytics_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted',
+          });
+          // Global Privacy Control is a legal opt-out of "sale/sharing" in several U.S. states: no ad data or
+          // personalization for this visitor, anywhere. (The ad loader at the end of <body> asks for non-personalized ads.)
+          if (navigator.globalPrivacyControl === true) {
+            gtag('consent', 'update', { ad_user_data: 'denied', ad_personalization: 'denied' });
+          }
+          gtag('js', new Date());
+          // page_location without the #hash: challenge links (/c/#...) carry names that must not reach analytics.
+          // 'set' makes it stick for later events too, not just the first page_view.
+          var pageLocation = location.origin + location.pathname + location.search;
+          // lang: which UI (English or Korean) the visit is on; also added to every game event (src/lib/track.ts)
+          gtag('set', { page_location: pageLocation });
+          // local test runs (dev server, headless checks) must not count as visitors
+          if (!/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) {
+            gtag('config', id, { page_location: pageLocation, lang: document.documentElement.lang });
+          }
+        })();</script><link rel="stylesheet" href="/_astro/about.Cg-ADSi9.css">
+<style>.lede[data-astro-cid-p2cbjao3]{font-size:1.08rem;color:var(--ink-2)}.steps[data-astro-cid-p2cbjao3]{padding-left:1.3em}.steps[data-astro-cid-p2cbjao3] li[data-astro-cid-p2cbjao3]{margin:.6em 0;padding-left:.2em}.rounds[data-astro-cid-p2cbjao3]{list-style:none;padding:0;margin:12px 0;display:grid;gap:10px}.rounds[data-astro-cid-p2cbjao3] li[data-astro-cid-p2cbjao3]{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;box-shadow:none}.rounds[data-astro-cid-p2cbjao3] h3[data-astro-cid-p2cbjao3]{margin:0 0 2px;font-size:1rem}.rounds[data-astro-cid-p2cbjao3] p[data-astro-cid-p2cbjao3]{margin:0;color:var(--ink-2);font-size:.95rem}.round-num[data-astro-cid-p2cbjao3]{flex:none;display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font:800 .95rem/1 var(--font-display)}.formula[data-astro-cid-p2cbjao3]{display:block;margin:6px 0;font-family:var(--font-mono);font-size:.9em}.table-card[data-astro-cid-p2cbjao3]{padding:4px 8px;margin:14px 0;box-shadow:none}.table-card[data-astro-cid-p2cbjao3] tr[data-astro-cid-p2cbjao3]:last-child td[data-astro-cid-p2cbjao3]{border-bottom:0}.legend[data-astro-cid-p2cbjao3]{list-style:none;padding:0;display:grid;gap:6px}.legend[data-astro-cid-p2cbjao3] .emoji[data-astro-cid-p2cbjao3]{display:inline-block;width:1.6em}.faq[data-astro-cid-p2cbjao3]{display:grid;gap:8px}.faq[data-astro-cid-p2cbjao3] details[data-astro-cid-p2cbjao3]{border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface)}.faq[data-astro-cid-p2cbjao3] summary[data-astro-cid-p2cbjao3]{cursor:pointer;padding:12px 16px;min-height:48px;display:flex;align-items:center;font-weight:700;list-style:none}.faq[data-astro-cid-p2cbjao3] summary[data-astro-cid-p2cbjao3]::-webkit-details-marker{display:none}.faq[data-astro-cid-p2cbjao3] summary[data-astro-cid-p2cbjao3]:after{content:"+";margin-left:auto;padding-left:12px;color:var(--muted);font-weight:400;font-size:1.3rem}.faq[data-astro-cid-p2cbjao3] details[data-astro-cid-p2cbjao3][open] summary[data-astro-cid-p2cbjao3]:after{content:"−"}.faq[data-astro-cid-p2cbjao3] details[data-astro-cid-p2cbjao3] p[data-astro-cid-p2cbjao3]{margin:0;padding:0 16px 14px;color:var(--ink-2)}.cta[data-astro-cid-p2cbjao3]{margin:32px 0 8px}
+</style></head> <body data-astro-cid-5hce7sga> <header class="site-header" data-astro-cid-5hce7sga> <div class="wrap bar" data-astro-cid-5hce7sga>  <a href="/" class="brand" data-astro-cid-5hce7sga> <span class="logo" aria-hidden="true" data-astro-cid-5hce7sga>N<span data-astro-cid-5hce7sga>Y</span></span> <span class="brand-text" data-astro-cid-5hce7sga>NameYear</span> </a> <nav class="nav" aria-label="Main" data-astro-cid-5hce7sga>    <a href="/archive/" data-astro-cid-5hce7sga>Archive</a>  <a href="/group/" data-astro-cid-5hce7sga><span data-astro-cid-5hce7sga><span class="nav-pre" data-astro-cid-5hce7sga>Guess my </span><span class="nav-key" data-astro-cid-5hce7sga>group</span></span></a> <a href="/how-to-play/" class="hide-sm" data-astro-cid-5hce7sga>How to play</a>  <span class="lang-toggle" role="group" aria-label="Language" data-astro-cid-5hce7sga> <span class="lang-cur" lang="en" title="English" aria-current="true" data-astro-cid-5hce7sga>EN</span> <span class="lang-sep" aria-hidden="true" data-astro-cid-5hce7sga>|</span> <a href="/ko/how-to-play/" hreflang="ko" lang="ko" data-lang-switch="ko" data-keep data-astro-cid-5hce7sga>한국어</a> </span> </nav> </div> </header> <main data-astro-cid-5hce7sga>   <article class="wrap prose-page" data-astro-cid-p2cbjao3> <h1 data-astro-cid-p2cbjao3>How to play</h1> <p class="lede" data-astro-cid-p2cbjao3>
+Each day you get five class rosters. Each one lists six first names of American kids who were all born in the same
+      year. Your job: guess the year.
+</p> <ol class="steps" data-astro-cid-p2cbjao3> <li data-astro-cid-p2cbjao3> <strong data-astro-cid-p2cbjao3>Read the roster.</strong> Three girls and three boys, mixed together. Nobody’s labeled.
+</li> <li data-astro-cid-p2cbjao3> <strong data-astro-cid-p2cbjao3>Pick a year</strong> on the slider, anywhere from 1925 to 2025. The −1 and +1 buttons nudge it
+        one year. On a keyboard, the arrow keys move one year and Shift + arrow moves five.
+</li> <li data-astro-cid-p2cbjao3> <strong data-astro-cid-p2cbjao3>Lock it in.</strong> You’ll see the real year, how far off you were and your points. Then it’s on to the
+        next round.
+</li> </ol> <p data-astro-cid-p2cbjao3>
+After round five you get your total out of 5,000, a breakdown of every name, and a spoiler-free result
+      to share.
+</p> <h2 data-astro-cid-p2cbjao3>The five rounds</h2> <p class="muted small" data-astro-cid-p2cbjao3>Ranks are for that year and that sex in the Social Security data.</p> <ol class="rounds" data-astro-cid-p2cbjao3> <li class="card" data-astro-cid-p2cbjao3> <span class="round-num" aria-hidden="true" data-astro-cid-p2cbjao3>1</span> <div data-astro-cid-p2cbjao3> <h3 data-astro-cid-p2cbjao3>Front Row</h3> <p data-astro-cid-p2cbjao3>The 10 most popular names of the year for each sex.</p> </div> </li><li class="card" data-astro-cid-p2cbjao3> <span class="round-num" aria-hidden="true" data-astro-cid-p2cbjao3>2</span> <div data-astro-cid-p2cbjao3> <h3 data-astro-cid-p2cbjao3>Second Row</h3> <p data-astro-cid-p2cbjao3>Popular, but not the very top: ranks 11 to 60.</p> </div> </li><li class="card" data-astro-cid-p2cbjao3> <span class="round-num" aria-hidden="true" data-astro-cid-p2cbjao3>3</span> <div data-astro-cid-p2cbjao3> <h3 data-astro-cid-p2cbjao3>Middle Row</h3> <p data-astro-cid-p2cbjao3>Familiar names a little further down: ranks 61 to 250.</p> </div> </li><li class="card" data-astro-cid-p2cbjao3> <span class="round-num" aria-hidden="true" data-astro-cid-p2cbjao3>4</span> <div data-astro-cid-p2cbjao3> <h3 data-astro-cid-p2cbjao3>Trendsetters</h3> <p data-astro-cid-p2cbjao3>Names that were unusually hot that year compared with the decades around it. Great for spotting fads.</p> </div> </li><li class="card" data-astro-cid-p2cbjao3> <span class="round-num" aria-hidden="true" data-astro-cid-p2cbjao3>5</span> <div data-astro-cid-p2cbjao3> <h3 data-astro-cid-p2cbjao3>Deep Cut</h3> <p data-astro-cid-p2cbjao3>Rarer names from ranks 251 to 1,000. The hardest round.</p> </div> </li> </ol> <p class="small muted" data-astro-cid-p2cbjao3>Thursday through Sunday, rounds 2 to 5 reach about 30% deeper into the rankings.</p> <h2 data-astro-cid-p2cbjao3>Scoring</h2> <p data-astro-cid-p2cbjao3>
+Each round is worth up to 1,000 points. Points shrink the further off you are:
+<span class="formula" data-astro-cid-p2cbjao3>points = 1,000 × e<sup data-astro-cid-p2cbjao3>−(years off ÷ 10)</sup></span>
+rounded to the nearest point.
+</p> <div class="table-card card" data-astro-cid-p2cbjao3> <table data-astro-cid-p2cbjao3> <thead data-astro-cid-p2cbjao3> <tr data-astro-cid-p2cbjao3> <th scope="col" data-astro-cid-p2cbjao3>Years off</th> <th scope="col" class="num" data-astro-cid-p2cbjao3>Points</th> <th scope="col" class="num" data-astro-cid-p2cbjao3>With hint</th> </tr> </thead> <tbody data-astro-cid-p2cbjao3> <tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>0</td> <td class="num" data-astro-cid-p2cbjao3>1,000</td> <td class="num" data-astro-cid-p2cbjao3>800</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>1</td> <td class="num" data-astro-cid-p2cbjao3>905</td> <td class="num" data-astro-cid-p2cbjao3>724</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>2</td> <td class="num" data-astro-cid-p2cbjao3>819</td> <td class="num" data-astro-cid-p2cbjao3>655</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>3</td> <td class="num" data-astro-cid-p2cbjao3>741</td> <td class="num" data-astro-cid-p2cbjao3>593</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>5</td> <td class="num" data-astro-cid-p2cbjao3>607</td> <td class="num" data-astro-cid-p2cbjao3>485</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>8</td> <td class="num" data-astro-cid-p2cbjao3>449</td> <td class="num" data-astro-cid-p2cbjao3>359</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>10</td> <td class="num" data-astro-cid-p2cbjao3>368</td> <td class="num" data-astro-cid-p2cbjao3>294</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>15</td> <td class="num" data-astro-cid-p2cbjao3>223</td> <td class="num" data-astro-cid-p2cbjao3>179</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>20</td> <td class="num" data-astro-cid-p2cbjao3>135</td> <td class="num" data-astro-cid-p2cbjao3>108</td> </tr><tr data-astro-cid-p2cbjao3> <td data-astro-cid-p2cbjao3>30</td> <td class="num" data-astro-cid-p2cbjao3>50</td> <td class="num" data-astro-cid-p2cbjao3>40</td> </tr> </tbody> </table> </div> <h3 data-astro-cid-p2cbjao3>What the squares mean</h3> <ul class="legend" data-astro-cid-p2cbjao3> <li data-astro-cid-p2cbjao3><span class="emoji" aria-hidden="true" data-astro-cid-p2cbjao3>🎯</span> 0–1 years off</li><li data-astro-cid-p2cbjao3><span class="emoji" aria-hidden="true" data-astro-cid-p2cbjao3>🟩</span> 2–3 years off</li><li data-astro-cid-p2cbjao3><span class="emoji" aria-hidden="true" data-astro-cid-p2cbjao3>🟨</span> 4–7 years off</li><li data-astro-cid-p2cbjao3><span class="emoji" aria-hidden="true" data-astro-cid-p2cbjao3>🟧</span> 8–14 years off</li><li data-astro-cid-p2cbjao3><span class="emoji" aria-hidden="true" data-astro-cid-p2cbjao3>🟥</span> 15 or more years off</li> </ul>  <h2 data-astro-cid-p2cbjao3>The hint</h2> <p data-astro-cid-p2cbjao3>
+Stuck? Tap <strong data-astro-cid-p2cbjao3>Call two more names</strong> before you lock in. You’ll see two more names from the same class,
+      one girl and one boy. That round is then worth up to 800 points instead of
+ 1,000. One hint per round.
+</p> <h2 data-astro-cid-p2cbjao3>New puzzle every day</h2> <p data-astro-cid-p2cbjao3>
+A new puzzle unlocks every day at 08:00 UTC. That’s
+ midnight Pacific and 3 a.m. Eastern (1 a.m. and 4 a.m. during daylight saving time).
+</p> <p id="local-reset" class="muted small" hidden data-astro-cid-p2cbjao3></p> <h2 data-astro-cid-p2cbjao3>Streaks</h2> <p data-astro-cid-p2cbjao3>
+Finish all five rounds of the day’s puzzle on the day it’s live and your streak goes up by one. Miss a day and it
+      starts over. Your longest streak is kept separately. Puzzles from the <a href="/archive/" data-astro-cid-p2cbjao3>archive</a> don’t count.
+</p> <p class="muted small" data-astro-cid-p2cbjao3>
+Streaks and stats live in this browser. Clearing your site data or switching devices starts you fresh.
+</p> <h2 data-astro-cid-p2cbjao3>FAQ</h2> <div class="faq" data-astro-cid-p2cbjao3> <details data-astro-cid-p2cbjao3> <summary data-astro-cid-p2cbjao3>Is every puzzle fair?</summary> <p data-astro-cid-p2cbjao3>Every roster passes a fairness check before it’s used. We take the six names and score every birth year from 1925 to 2025 by how common those names were among U.S. babies born that year. A roster only makes the cut if the data’s best guess lands within 2 years of the answer and the range holding 80% of the likelihood is narrow: 10 to 18 years wide, depending on the round. The two hint names have to keep the best guess within 2 years too. Rosters that fail are thrown out and redrawn. Nobody hand-picks them.</p> </details><details data-astro-cid-p2cbjao3> <summary data-astro-cid-p2cbjao3>Why does a 1960s name show up in 2018?</summary> <p data-astro-cid-p2cbjao3>Because names don’t belong to just one era. Every name on a roster was genuinely common in the answer year, but common isn’t the same as peaking. Michael peaked in 1969 and still went to 11,756 boys in 2018. Other names skip a generation or two and come back: Evelyn went to 1,302 girls born in 1990 and 10,433 born in 2018. One name rarely gives the year away. Six together usually do.</p> </details><details data-astro-cid-p2cbjao3> <summary data-astro-cid-p2cbjao3>Where does the data come from?</summary> <p data-astro-cid-p2cbjao3>From the U.S. Social Security Administration’s public baby-name files, which count first names on Social Security card applications for babies born in the United States. The game uses births from 1925 to 2025. Sources, limits and checksums are on the <a href="/data/">Data page</a>.</p> </details><details data-astro-cid-p2cbjao3> <summary data-astro-cid-p2cbjao3>Do you collect my data?</summary> <p data-astro-cid-p2cbjao3>Not the personal kind. There are no accounts. Your guesses, scores and streak are saved in your browser’s local storage, not on our servers. If analytics is turned on, we count visits and anonymous game events, like finishing a puzzle and the score, to see how hard puzzles are. Ads may use cookies. The <a href="/privacy/">Privacy page</a> has the details.</p> </details><details data-astro-cid-p2cbjao3> <summary data-astro-cid-p2cbjao3>Does everyone get the same puzzle?</summary> <p data-astro-cid-p2cbjao3>Yes. Everyone plays the same five rosters each day, so you can compare scores with friends. A new puzzle unlocks at 08:00 UTC.</p> </details><details data-astro-cid-p2cbjao3> <summary data-astro-cid-p2cbjao3>Can I play puzzles I missed?</summary> <p data-astro-cid-p2cbjao3>Yes. Every past puzzle is in the <a href="/archive/">Archive</a>. Archive games are just for fun and don’t count toward your streak.</p> </details> </div> <p class="cta" data-astro-cid-p2cbjao3><a class="btn btn-primary" href="/" data-astro-cid-p2cbjao3>Play today’s puzzle</a></p>  </article>  </main> <footer class="site-footer" data-astro-cid-5hce7sga> <div class="wrap" data-astro-cid-5hce7sga> <nav class="foot-links" aria-label="Footer" data-astro-cid-5hce7sga> <a href="/how-to-play/" data-astro-cid-5hce7sga>How to play</a> <a href="/years/" data-astro-cid-5hce7sga>Years</a> <a href="/names/" data-astro-cid-5hce7sga>Names</a> <a href="/about/" data-astro-cid-5hce7sga>About</a> <a href="/data/" data-astro-cid-5hce7sga>Data</a> <a href="/privacy/" data-astro-cid-5hce7sga>Privacy</a> <a href="/terms/" data-astro-cid-5hce7sga>Terms</a> <a href="/contact/" data-astro-cid-5hce7sga>Contact</a> <a href="/privacy/#choices" id="privacy-choices" data-astro-cid-5hce7sga>Privacy choices</a> </nav> <p class="muted small" data-astro-cid-5hce7sga>Name data: U.S. Social Security Administration (public domain). NameYear is an independent project and is not affiliated with or endorsed by the SSA.</p> </div> </footer> <script>(function(){const client = "ca-pub-7036871703772046";
+
+        // Fills manual ad units (AdSlot.astro): one request per visible unit, in page order. The AdSense loader is
+        // added only once a unit is actually shown, so pages without one (the game on phones, challenge links)
+        // never load it and can't get auto-placed ads.
+        (function () {
+          var loaded = false;
+          // Global Privacy Control: non-personalized ads only. Has to be set before the first push.
+          if (navigator.globalPrivacyControl === true) {
+            (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+          }
+          function loadAdsense() {
+            if (loaded) return;
+            loaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.crossOrigin = 'anonymous';
+            s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(client);
+            document.head.appendChild(s);
+          }
+          window.nyAds = function (includeDeferred) {
+            var slots = document.querySelectorAll('.ad-slot');
+            for (var i = 0; i < slots.length; i++) {
+              var slot = slots[i];
+              var ins = slot.querySelector('ins.ny-ad');
+              if (!ins || ins.classList.contains('adsbygoogle')) continue; // missing or already requested
+              if (slot.hasAttribute('data-defer') && !includeDeferred) continue; // the page fills it later
+              if (slot.offsetWidth === 0) continue; // hidden by CSS or inside a hidden view
+              loadAdsense();
+              // AdSense fills the first ins.adsbygoogle it hasn't processed, so the class goes on right before
+              // each push: a hidden unit earlier in the page can never take a visible unit's ad.
+              ins.classList.add('adsbygoogle');
+              (window.adsbygoogle = window.adsbygoogle || []).push({});
+            }
+          };
+          window.nyAds(false);
+
+          // Footer "Privacy choices": reopens Google's consent message (EEA/UK/CH) or its U.S. state opt-out dialog.
+          // Both come with the AdSense tag, so it is loaded on demand. If no message shows up (blocked, or none
+          // published in AdSense > Privacy & messaging), the link falls through to the choices section of /privacy/.
+          var choices = document.getElementById('privacy-choices');
+          if (choices) {
+            choices.addEventListener('click', function (e) {
+              e.preventDefault();
+              var href = choices.getAttribute('href');
+              var opened = false;
+              var fallback = setTimeout(function () { if (!opened) location.href = href; }, 4000);
+              var done = function () { opened = true; clearTimeout(fallback); };
+              loadAdsense();
+              window.googlefc = window.googlefc || {};
+              window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+              window.googlefc.callbackQueue.push({
+                CONSENT_API_READY: function () {
+                  var fc = window.googlefc;
+                  var revoke = function () {
+                    if (typeof fc.showRevocationMessage === 'function') { done(); fc.showRevocationMessage(); }
+                  };
+                  var usOptOut = function () {
+                    var us = fc.usstatesoptout;
+                    if (!us || typeof us.openConfirmationDialog !== 'function') return false;
+                    done();
+                    us.openConfirmationDialog(function () {});
+                    return true;
+                  };
+                  if (typeof window.__tcfapi !== 'function') { if (!usOptOut()) revoke(); return; }
+                  var asked = false;
+                  window.__tcfapi('addEventListener', 2, function (tc, ok) {
+                    if (asked || !tc) return;
+                    asked = true;
+                    if (tc.listenerId != null) window.__tcfapi('removeEventListener', 2, function () {}, tc.listenerId);
+                    if (ok && tc.gdprApplies) revoke();
+                    else if (!usOptOut()) revoke();
+                  });
+                },
+              });
+            });
+          }
+        })();
+      })();</script> <script>(function(){const key = "ny:v1:lang";
+
+      // Header language toggle: remember the choice, and carry ?d=... and #... over (past puzzles, results, challenges).
+      document.querySelectorAll('[data-lang-switch]').forEach(function (a) {
+        a.addEventListener('click', function () {
+          try { localStorage.setItem(key, a.getAttribute('data-lang-switch')); } catch (e) { /* not remembered */ }
+          if (a.hasAttribute('data-keep')) a.href = a.pathname + location.search + location.hash;
+        });
+      });
+    })();</script>  </body> </html>  <script type="module" src="/_astro/how-to-play.astro_astro_type_script_index_0_lang.CdXZQYx3.js"></script> 

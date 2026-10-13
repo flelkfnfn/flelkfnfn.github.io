@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-5hce7sga> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Data sources · NameYear</title><meta name="description" content="Where NameYear’s numbers come from: U.S. Social Security Administration baby-name data, 1880–2025, with source links, known limits and file checksums."><link rel="canonical" href="https://nameyear.com/data/"><script>
+        // never index the temporary github.io address, even if a staging build forgot NOINDEX=1
+        if (/\.github\.io$/.test(location.hostname)) {
+          var m = document.createElement('meta');
+          m.name = 'robots';
+          m.content = 'noindex';
+          document.head.appendChild(m);
+        }
+      </script><meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta property="og:type" content="website"><meta property="og:site_name" content="NameYear"><meta property="og:locale" content="en_US"><meta property="og:title" content="Data sources · NameYear"><meta property="og:description" content="Where NameYear’s numbers come from: U.S. Social Security Administration baby-name data, 1880–2025, with source links, known limits and file checksums."><meta property="og:url" content="https://nameyear.com/data/"><meta property="og:image" content="https://nameyear.com/og/default.png"><meta name="twitter:card" content="summary_large_image"><meta name="google-adsense-account" content="ca-pub-7036871703772046"><script async src="https://www.googletagmanager.com/gtag/js?id=G-99EV6E098T"></script><script>(function(){const id = "G-99EV6E098T";
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+          // Consent Mode: no analytics or ad cookies in the EEA, UK and Switzerland until the visitor agrees in the
+          // Google consent message (AdSense > Privacy & messaging, with consent mode on). Granted elsewhere.
+          gtag('consent', 'default', {
+            ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+            wait_for_update: 500,
+            region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL',
+              'PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],
+          });
+          gtag('consent', 'default', {
+            ad_storage: 'granted', analytics_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted',
+          });
+          // Global Privacy Control is a legal opt-out of "sale/sharing" in several U.S. states: no ad data or
+          // personalization for this visitor, anywhere. (The ad loader at the end of <body> asks for non-personalized ads.)
+          if (navigator.globalPrivacyControl === true) {
+            gtag('consent', 'update', { ad_user_data: 'denied', ad_personalization: 'denied' });
+          }
+          gtag('js', new Date());
+          // page_location without the #hash: challenge links (/c/#...) carry names that must not reach analytics.
+          // 'set' makes it stick for later events too, not just the first page_view.
+          var pageLocation = location.origin + location.pathname + location.search;
+          // lang: which UI (English or Korean) the visit is on; also added to every game event (src/lib/track.ts)
+          gtag('set', { page_location: pageLocation });
+          // local test runs (dev server, headless checks) must not count as visitors
+          if (!/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) {
+            gtag('config', id, { page_location: pageLocation, lang: document.documentElement.lang });
+          }
+        })();</script><link rel="stylesheet" href="/_astro/about.Cg-ADSi9.css">
+<style>.lede[data-astro-cid-p7ibfero]{font-size:1.08rem;color:var(--ink-2)}.attribution[data-astro-cid-p7ibfero]{margin:20px 0;padding:16px 18px;border-left:4px solid var(--accent);box-shadow:none}.attribution[data-astro-cid-p7ibfero] p[data-astro-cid-p7ibfero]{margin:0}.sources[data-astro-cid-p7ibfero]{padding-left:1.1em}.sources[data-astro-cid-p7ibfero] li[data-astro-cid-p7ibfero]{margin:.6em 0}.facts[data-astro-cid-p7ibfero]{margin:12px 0 16px;padding:4px 16px;box-shadow:none}.facts[data-astro-cid-p7ibfero] div[data-astro-cid-p7ibfero]{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 16px;padding:10px 0}.facts[data-astro-cid-p7ibfero] div[data-astro-cid-p7ibfero]+div[data-astro-cid-p7ibfero]{border-top:1px solid var(--line)}.facts[data-astro-cid-p7ibfero] dt[data-astro-cid-p7ibfero]{color:var(--muted);font-size:.92rem}.facts[data-astro-cid-p7ibfero] dd[data-astro-cid-p7ibfero]{margin:0;font-weight:600;font-variant-numeric:tabular-nums}.hashes[data-astro-cid-p7ibfero]{list-style:none;padding:0;display:grid;gap:8px}.hashes[data-astro-cid-p7ibfero] li[data-astro-cid-p7ibfero]{padding:12px 14px;box-shadow:none;display:grid;gap:4px}.hashes[data-astro-cid-p7ibfero] .file[data-astro-cid-p7ibfero]{font-weight:700;font-size:.92rem}.hashes[data-astro-cid-p7ibfero] code[data-astro-cid-p7ibfero]{font-family:var(--font-mono);font-size:.8rem;color:var(--ink-2);overflow-wrap:anywhere;word-break:break-all}
+</style></head> <body data-astro-cid-5hce7sga> <header class="site-header" data-astro-cid-5hce7sga> <div class="wrap bar" data-astro-cid-5hce7sga>  <a href="/" class="brand" data-astro-cid-5hce7sga> <span class="logo" aria-hidden="true" data-astro-cid-5hce7sga>N<span data-astro-cid-5hce7sga>Y</span></span> <span class="brand-text" data-astro-cid-5hce7sga>NameYear</span> </a> <nav class="nav" aria-label="Main" data-astro-cid-5hce7sga>    <a href="/archive/" data-astro-cid-5hce7sga>Archive</a>  <a href="/group/" data-astro-cid-5hce7sga><span data-astro-cid-5hce7sga><span class="nav-pre" data-astro-cid-5hce7sga>Guess my </span><span class="nav-key" data-astro-cid-5hce7sga>group</span></span></a> <a href="/how-to-play/" class="hide-sm" data-astro-cid-5hce7sga>How to play</a>  <span class="lang-toggle" role="group" aria-label="Language" data-astro-cid-5hce7sga> <span class="lang-cur" lang="en" title="English" aria-current="true" data-astro-cid-5hce7sga>EN</span> <span class="lang-sep" aria-hidden="true" data-astro-cid-5hce7sga>|</span> <a href="/ko/" hreflang="ko" lang="ko" data-lang-switch="ko" data-astro-cid-5hce7sga>한국어</a> </span> </nav> </div> </header> <main data-astro-cid-5hce7sga>  <article class="wrap prose" data-astro-cid-p7ibfero> <h1 data-astro-cid-p7ibfero>Data sources</h1> <p class="lede" data-astro-cid-p7ibfero>
+Every puzzle, year page and name page on NameYear is built from one public dataset.
+</p> <blockquote class="card attribution" data-astro-cid-p7ibfero> <p data-astro-cid-p7ibfero>
+Name data: U.S. Social Security Administration, “Baby Names from Social Security Card Applications” (national data
+        1880–2025 and state data 1910–2025), published on data.gov under CC0 1.0. Only names with at least 5 births in a
+        given year and sex are included, and counts before 1937 are incomplete. NameYear is an independent project and
+        is not affiliated with or endorsed by the Social Security Administration.
+</p> </blockquote> <h2 data-astro-cid-p7ibfero>Sources</h2> <ul class="sources" data-astro-cid-p7ibfero> <li data-astro-cid-p7ibfero> <a href="https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data" rel="noopener" target="_blank" data-astro-cid-p7ibfero>Baby Names from Social Security Card Applications – National Data</a> <span class="muted small" data-astro-cid-p7ibfero> · data.gov catalog</span> </li><li data-astro-cid-p7ibfero> <a href="https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-state-and-district-of-columbia-data" rel="noopener" target="_blank" data-astro-cid-p7ibfero>Baby Names from Social Security Card Applications – State and District of Columbia Data</a> <span class="muted small" data-astro-cid-p7ibfero> · data.gov catalog</span> </li><li data-astro-cid-p7ibfero> <a href="https://www.ssa.gov/oact/babynames/limits.html" rel="noopener" target="_blank" data-astro-cid-p7ibfero>Background information and limitations</a> <span class="muted small" data-astro-cid-p7ibfero> · Social Security Administration</span> </li> </ul> <h2 data-astro-cid-p7ibfero>What we use</h2> <dl class="facts card" data-astro-cid-p7ibfero> <div data-astro-cid-p7ibfero> <dt data-astro-cid-p7ibfero>National data available</dt> <dd data-astro-cid-p7ibfero>1880–2025</dd> </div> <div data-astro-cid-p7ibfero> <dt data-astro-cid-p7ibfero>Years used on this site</dt> <dd data-astro-cid-p7ibfero>1925–2025</dd> </div> <div data-astro-cid-p7ibfero> <dt data-astro-cid-p7ibfero>Puzzle answer years</dt> <dd data-astro-cid-p7ibfero>1935–2025</dd> </div> <div data-astro-cid-p7ibfero> <dt data-astro-cid-p7ibfero>State data</dt> <dd data-astro-cid-p7ibfero>Used only for the state lists on name pages</dd> </div> </dl> <p data-astro-cid-p7ibfero>
+Popularity on this site means a name’s share of the births listed in the files for that year and sex. Because
+      names with fewer than 5 births are left out of the files, those shares are slightly higher than they would be
+      against every U.S. birth. Rankings follow the same rule: one spelling, one sex, one year.
+</p> <p data-astro-cid-p7ibfero>
+The <a href="/group/" data-astro-cid-p7ibfero>Guess my group</a> tool downloads yearly birth counts for every name with at least 100 U.S.
+      births since 1925, grouped into small files by the first two letters of the name. The math runs in
+      your browser.
+</p> <h2 data-astro-cid-p7ibfero>Known limits</h2> <ul data-astro-cid-p7ibfero> <li data-astro-cid-p7ibfero>Names with fewer than 5 births in a year, for a given sex, are not in the data.</li> <li data-astro-cid-p7ibfero>Counts before 1937 are incomplete, because many people born earlier never applied for a Social Security card.</li> <li data-astro-cid-p7ibfero>Only births in the United States are included.</li> <li data-astro-cid-p7ibfero>Each spelling is a separate name, and sex is recorded as female or male.</li> </ul> <p data-astro-cid-p7ibfero>More on what that means for the game is on the <a href="/about/" data-astro-cid-p7ibfero>About page</a>.</p>  <h2 data-astro-cid-p7ibfero>Updates</h2> <p data-astro-cid-p7ibfero>
+The SSA usually publishes a new year of data each spring. When it does, we rebuild the year and name pages.
+      Puzzles that have already gone live stay exactly as they were.
+</p>  <h2 data-astro-cid-p7ibfero>File checksums</h2> <p data-astro-cid-p7ibfero>SHA-256 hashes of the SSA files the current data was built from:</p> <ul class="hashes" data-astro-cid-p7ibfero> <li class="card" data-astro-cid-p7ibfero> <span class="file" data-astro-cid-p7ibfero>names.zip</span> <code data-astro-cid-p7ibfero>cd78e975ed7bb358e018dd62fbe14ced89295e9581c49172ca4eedcb011b3724</code> </li><li class="card" data-astro-cid-p7ibfero> <span class="file" data-astro-cid-p7ibfero>namesbystate.zip</span> <code data-astro-cid-p7ibfero>e8aaf58e3838ec2a2aa880635014744ba20f74941a2688ac36723acaf604d66a</code> </li> </ul>  <p class="muted small" data-astro-cid-p7ibfero>
+Spotted a number that looks wrong? Email <a href="mailto:hello@nameyear.com" data-astro-cid-p7ibfero>hello@nameyear.com</a>.
+</p>  </article>  </main> <footer class="site-footer" data-astro-cid-5hce7sga> <div class="wrap" data-astro-cid-5hce7sga> <nav class="foot-links" aria-label="Footer" data-astro-cid-5hce7sga> <a href="/how-to-play/" data-astro-cid-5hce7sga>How to play</a> <a href="/years/" data-astro-cid-5hce7sga>Years</a> <a href="/names/" data-astro-cid-5hce7sga>Names</a> <a href="/about/" data-astro-cid-5hce7sga>About</a> <a href="/data/" data-astro-cid-5hce7sga>Data</a> <a href="/privacy/" data-astro-cid-5hce7sga>Privacy</a> <a href="/terms/" data-astro-cid-5hce7sga>Terms</a> <a href="/contact/" data-astro-cid-5hce7sga>Contact</a> <a href="/privacy/#choices" id="privacy-choices" data-astro-cid-5hce7sga>Privacy choices</a> </nav> <p class="muted small" data-astro-cid-5hce7sga>Name data: U.S. Social Security Administration (public domain). NameYear is an independent project and is not affiliated with or endorsed by the SSA.</p> </div> </footer> <script>(function(){const client = "ca-pub-7036871703772046";
+
+        // Fills manual ad units (AdSlot.astro): one request per visible unit, in page order. The AdSense loader is
+        // added only once a unit is actually shown, so pages without one (the game on phones, challenge links)
+        // never load it and can't get auto-placed ads.
+        (function () {
+          var loaded = false;
+          // Global Privacy Control: non-personalized ads only. Has to be set before the first push.
+          if (navigator.globalPrivacyControl === true) {
+            (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+          }
+          function loadAdsense() {
+            if (loaded) return;
+            loaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.crossOrigin = 'anonymous';
+            s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(client);
+            document.head.appendChild(s);
+          }
+          window.nyAds = function (includeDeferred) {
+            var slots = document.querySelectorAll('.ad-slot');
+            for (var i = 0; i < slots.length; i++) {
+              var slot = slots[i];
+              var ins = slot.querySelector('ins.ny-ad');
+              if (!ins || ins.classList.contains('adsbygoogle')) continue; // missing or already requested
+              if (slot.hasAttribute('data-defer') && !includeDeferred) continue; // the page fills it later
+              if (slot.offsetWidth === 0) continue; // hidden by CSS or inside a hidden view
+              loadAdsense();
+              // AdSense fills the first ins.adsbygoogle it hasn't processed, so the class goes on right before
+              // each push: a hidden unit earlier in the page can never take a visible unit's ad.
+              ins.classList.add('adsbygoogle');
+              (window.adsbygoogle = window.adsbygoogle || []).push({});
+            }
+          };
+          window.nyAds(false);
+
+          // Footer "Privacy choices": reopens Google's consent message (EEA/UK/CH) or its U.S. state opt-out dialog.
+          // Both come with the AdSense tag, so it is loaded on demand. If no message shows up (blocked, or none
+          // published in AdSense > Privacy & messaging), the link falls through to the choices section of /privacy/.
+          var choices = document.getElementById('privacy-choices');
+          if (choices) {
+            choices.addEventListener('click', function (e) {
+              e.preventDefault();
+              var href = choices.getAttribute('href');
+              var opened = false;
+              var fallback = setTimeout(function () { if (!opened) location.href = href; }, 4000);
+              var done = function () { opened = true; clearTimeout(fallback); };
+              loadAdsense();
+              window.googlefc = window.googlefc || {};
+              window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+              window.googlefc.callbackQueue.push({
+                CONSENT_API_READY: function () {
+                  var fc = window.googlefc;
+                  var revoke = function () {
+                    if (typeof fc.showRevocationMessage === 'function') { done(); fc.showRevocationMessage(); }
+                  };
+                  var usOptOut = function () {
+                    var us = fc.usstatesoptout;
+                    if (!us || typeof us.openConfirmationDialog !== 'function') return false;
+                    done();
+                    us.openConfirmationDialog(function () {});
+                    return true;
+                  };
+                  if (typeof window.__tcfapi !== 'function') { if (!usOptOut()) revoke(); return; }
+                  var asked = false;
+                  window.__tcfapi('addEventListener', 2, function (tc, ok) {
+                    if (asked || !tc) return;
+                    asked = true;
+                    if (tc.listenerId != null) window.__tcfapi('removeEventListener', 2, function () {}, tc.listenerId);
+                    if (ok && tc.gdprApplies) revoke();
+                    else if (!usOptOut()) revoke();
+                  });
+                },
+              });
+            });
+          }
+        })();
+      })();</script> <script>(function(){const key = "ny:v1:lang";
+
+      // Header language toggle: remember the choice, and carry ?d=... and #... over (past puzzles, results, challenges).
+      document.querySelectorAll('[data-lang-switch]').forEach(function (a) {
+        a.addEventListener('click', function () {
+          try { localStorage.setItem(key, a.getAttribute('data-lang-switch')); } catch (e) { /* not remembered */ }
+          if (a.hasAttribute('data-keep')) a.href = a.pathname + location.search + location.hash;
+        });
+      });
+    })();</script>  </body> </html>  

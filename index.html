@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-5hce7sga> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>NameYear · Daily name game: guess the birth year from six names</title><meta name="description" content="A free daily name game. Six first names, all popular in the same U.S. birth year: slide to the year and see how close you get. New puzzle every day."><link rel="canonical" href="https://nameyear.com/"><link rel="alternate" hreflang="en" href="https://nameyear.com/"><link rel="alternate" hreflang="ko" href="https://nameyear.com/ko/"><link rel="alternate" hreflang="x-default" href="https://nameyear.com/"><script>(function(){const key = "ny:v1:lang";
+
+        // Korean browsers go to /ko/ unless the visitor picked a language with the header toggle (which saves it).
+        // Client side only: crawlers and everyone else get this English page in full.
+        try {
+          var pref = localStorage.getItem(key);
+          if (pref === 'ko' || (!pref && /^ko\b/i.test(navigator.language || ''))) {
+            location.replace('/ko/' + location.search + location.hash);
+          }
+        } catch (e) {
+          /* storage blocked: stay on the English page */
+        }
+      })();</script><script>
+        // never index the temporary github.io address, even if a staging build forgot NOINDEX=1
+        if (/\.github\.io$/.test(location.hostname)) {
+          var m = document.createElement('meta');
+          m.name = 'robots';
+          m.content = 'noindex';
+          document.head.appendChild(m);
+        }
+      </script><meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta property="og:type" content="website"><meta property="og:site_name" content="NameYear"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="ko_KR"><meta property="og:title" content="NameYear · Daily name game: guess the birth year from six names"><meta property="og:description" content="A free daily name game. Six first names, all popular in the same U.S. birth year: slide to the year and see how close you get. New puzzle every day."><meta property="og:url" content="https://nameyear.com/"><meta property="og:image" content="https://nameyear.com/og/default.png"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NameYear","url":"https://nameyear.com/","description":"A free daily name game. Six first names, all popular in the same U.S. birth year: slide to the year and see how close you get. New puzzle every day."}</script><meta name="google-adsense-account" content="ca-pub-7036871703772046"><script async src="https://www.googletagmanager.com/gtag/js?id=G-99EV6E098T"></script><script>(function(){const id = "G-99EV6E098T";
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+          // Consent Mode: no analytics or ad cookies in the EEA, UK and Switzerland until the visitor agrees in the
+          // Google consent message (AdSense > Privacy & messaging, with consent mode on). Granted elsewhere.
+          gtag('consent', 'default', {
+            ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+            wait_for_update: 500,
+            region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL',
+              'PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],
+          });
+          gtag('consent', 'default', {
+            ad_storage: 'granted', analytics_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted',
+          });
+          // Global Privacy Control is a legal opt-out of "sale/sharing" in several U.S. states: no ad data or
+          // personalization for this visitor, anywhere. (The ad loader at the end of <body> asks for non-personalized ads.)
+          if (navigator.globalPrivacyControl === true) {
+            gtag('consent', 'update', { ad_user_data: 'denied', ad_personalization: 'denied' });
+          }
+          gtag('js', new Date());
+          // page_location without the #hash: challenge links (/c/#...) carry names that must not reach analytics.
+          // 'set' makes it stick for later events too, not just the first page_view.
+          var pageLocation = location.origin + location.pathname + location.search;
+          // lang: which UI (English or Korean) the visit is on; also added to every game event (src/lib/track.ts)
+          gtag('set', { page_location: pageLocation });
+          // local test runs (dev server, headless checks) must not count as visitors
+          if (!/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) {
+            gtag('config', id, { page_location: pageLocation, lang: document.documentElement.lang });
+          }
+        })();</script><link rel="stylesheet" href="/_astro/about.Cg-ADSi9.css">
+<link rel="stylesheet" href="/_astro/index.CwrcLNed.css"></head> <body data-astro-cid-5hce7sga> <header class="site-header" data-astro-cid-5hce7sga> <div class="wrap bar" data-astro-cid-5hce7sga>  <a href="/" class="brand" data-astro-cid-5hce7sga> <span class="logo" aria-hidden="true" data-astro-cid-5hce7sga>N<span data-astro-cid-5hce7sga>Y</span></span> <span class="brand-text" data-astro-cid-5hce7sga>NameYear</span> </a> <nav class="nav" aria-label="Main" data-astro-cid-5hce7sga>    <a href="/archive/" data-astro-cid-5hce7sga>Archive</a>  <a href="/group/" data-astro-cid-5hce7sga><span data-astro-cid-5hce7sga><span class="nav-pre" data-astro-cid-5hce7sga>Guess my </span><span class="nav-key" data-astro-cid-5hce7sga>group</span></span></a> <a href="/how-to-play/" class="hide-sm" data-astro-cid-5hce7sga>How to play</a>  <span class="lang-toggle" role="group" aria-label="Language" data-astro-cid-5hce7sga> <span class="lang-cur" lang="en" title="English" aria-current="true" data-astro-cid-5hce7sga>EN</span> <span class="lang-sep" aria-hidden="true" data-astro-cid-5hce7sga>|</span> <a href="/ko/" hreflang="ko" lang="ko" data-lang-switch="ko" data-keep data-astro-cid-5hce7sga>한국어</a> </span> </nav> </div> </header> <main data-astro-cid-5hce7sga>   <div class="ny-layout"> <section class="ny-col" id="ny-game" data-mode="today" aria-labelledby="ny-h1"> <h1 id="ny-h1" class="visually-hidden">NameYear: guess the birth year from six first names</h1> <div class="ny-top"> <p class="ny-top-title"> <span class="ny-top-label" data-ref="label">NameYear</span> <span class="ny-top-date" data-ref="date"></span> </p> <div class="ny-tools"> <button type="button" class="ny-icon-btn" data-open="ny-stats" aria-label="Your stats" title="Your stats"> <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 20V11M12 20V4M19 20v-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path></svg> </button> <button type="button" class="ny-icon-btn" data-open="ny-help" aria-label="How to play" title="How to play"> <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="2"></circle><path d="M9.6 9.4a2.5 2.5 0 1 1 3.6 2.3c-.8.4-1.2.9-1.2 1.8v.3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="17" r="1.25" fill="currentColor"></circle></svg> </button> </div> </div> <div class="ny-views" data-ref="views"> <div data-view="loading" class="ny-loading"> <div class="card ny-roster ny-skeleton" aria-hidden="true"> <div class="ny-roster-head"><span class="ny-roster-title">Class roster</span></div> <ol class="ny-names"><li><span class="ny-n-i"></span><span class="ny-n ny-n-blank"></span></li><li><span class="ny-n-i"></span><span class="ny-n ny-n-blank"></span></li><li><span class="ny-n-i"></span><span class="ny-n ny-n-blank"></span></li><li><span class="ny-n-i"></span><span class="ny-n ny-n-blank"></span></li><li><span class="ny-n-i"></span><span class="ny-n ny-n-blank"></span></li><li><span class="ny-n-i"></span><span class="ny-n ny-n-blank"></span></li></ol> </div> <p class="muted small center" role="status">Taking attendance…</p> </div> <div data-view="error" class="card ny-msg" hidden> <p class="ny-msg-title">We couldn&#39;t load this puzzle.</p> <p class="muted">Check your connection and give it another try.</p> <button type="button" class="btn btn-primary" data-ref="retry">Try again</button> </div> <div data-view="soon" class="card ny-msg" hidden> <p class="ny-msg-title" data-ref="soonTitle">The first puzzle unlocks soon.</p> <p class="ny-countdown-big"><time data-ref="soonCountdown">--:--:--</time></p> <p class="muted" data-ref="soonText"></p> <div class="ny-msg-links"> <a class="btn" href="/how-to-play/">How to play</a> <a class="btn" href="/group/">Guess my group</a> </div> </div> <div data-view="done" class="ny-done" hidden> <div class="card ny-done-card"> <p class="ny-done-k">You&#39;ve played <span data-ref="doneLabel"></span></p> <p class="ny-done-score"><b data-ref="doneScore">0</b><span> / 5,000</span></p> <p class="ny-tier" data-ref="doneTier"></p> <p class="ny-done-emoji" data-ref="doneEmoji"></p> <p class="ny-done-off muted small" data-ref="doneOff"></p> <div class="ny-bench"> <p class="ny-bench-duel" data-ref="doneDuel"></p> <p class="ny-bench-me muted small" data-ref="doneMe" hidden></p> </div> <p class="ny-late small" data-ref="doneLate" hidden>Finished after the daily reset, so this one doesn&#39;t count toward your streak.</p> <button type="button" class="btn btn-primary btn-block ny-share" data-ref="doneShare"> <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 15V3M7.5 7.5 12 3l4.5 4.5M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg> Share your score </button> <div class="ny-sharex" data-ref="doneSharex"> <div class="ny-sharex-row"> <button type="button" class="btn ny-sharex-btn" data-fb aria-label="Share to Facebook"> <svg class="ny-sx-fb" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07Z"></path></svg> <span class="ny-sx-l" aria-hidden="true">Share to Facebook</span><span class="ny-sx-s" aria-hidden="true">Facebook</span> </button> <button type="button" class="btn ny-sharex-btn" data-story aria-label="Save story image"> <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="5.5" y="2" width="13" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"></rect><path d="M12 7.5v7M9 11.8l3 3 3-3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg> <span class="ny-sx-l" aria-hidden="true">Save story image</span><span class="ny-sx-s" aria-hidden="true">Story image</span> </button> </div> </div> <a class="btn btn-block ny-done-res" data-ref="doneResults" href="/results/">See your results</a> <p class="ny-done-next" data-ref="doneNext"> <span class="muted">Next puzzle in</span> <time class="ny-countdown" data-ref="doneCountdown">--:--:--</time> </p> </div> <div class="ny-done-links" data-ref="doneLinks"></div> <div class="card ny-inapp" data-ref="doneInapp" role="note" hidden></div>   </div> <div data-view="play" hidden> <div class="ny-roundbar"> <p class="ny-round" id="ny-roundtxt"> <span class="ny-round-l"><span data-ref="roundNum">Round 1 of 5</span> <span class="ny-round-sep" aria-hidden="true">·</span> <span class="ny-round-name" data-ref="roundName">Front Row</span></span><span class="visually-hidden">. </span> <span class="ny-round-note" data-ref="roundNote">Top-10 names. Easiest round.</span> </p> <ol class="ny-dots" data-ref="dots" aria-hidden="true"><li></li><li></li><li></li><li></li><li></li></ol> </div> <div class="card ny-roster"> <div class="ny-roster-head"> <span class="ny-roster-title">Class roster</span> <span class="ny-roster-sub" data-ref="rosterSub">6 names</span> </div> <ol class="ny-names" data-ref="names" aria-live="polite"></ol> <button type="button" class="ny-hint-btn" data-ref="hintBtn"> <span><span aria-hidden="true">+</span> Call two more names</span> <span class="ny-hint-cost">round max 800</span> </button> </div> <div class="ny-controls" data-ref="controls"> <p class="ny-prompt" id="ny-prompt" data-ref="prompt">All six were born in the U.S. in the same year. Which year?</p> <output class="ny-readout" data-ref="readout" for="ny-year" aria-hidden="true">1975</output> <div class="ny-slider-row"> <button type="button" class="ny-step" data-step="-1" aria-label="One year earlier">−1</button> <input type="range" id="ny-year" class="ny-range" min="1925" max="2025" step="1" value="1975" aria-label="Birth year" aria-describedby="ny-roundtxt ny-prompt"> <button type="button" class="ny-step" data-step="1" aria-label="One year later">+1</button> </div> <div class="ny-scale" aria-hidden="true"><span>1925</span><span>1950</span><span>1975</span><span>2000</span><span>2025</span></div> <button type="button" class="btn btn-primary btn-block ny-lock" data-ref="lock"><span>Lock in <span data-ref="lockYear">1975</span></span></button> </div> <div class="ny-reveal" data-ref="reveal" aria-live="polite"></div> </div> </div> </section> <aside class="ny-rail" aria-label="Advertisement">  </aside> </div> <dialog id="ny-stats" class="ny-dialog" aria-labelledby="ny-stats-title"> <div class="ny-dialog-head"> <h2 id="ny-stats-title">Your stats</h2> <button type="button" class="ny-icon-btn" data-close aria-label="Close"> <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path></svg> </button> </div> <div class="ny-dialog-body" data-stats></div> </dialog> <dialog id="ny-help" class="ny-dialog" aria-labelledby="ny-help-title"> <div class="ny-dialog-head"> <h2 id="ny-help-title">How to play</h2> <button type="button" class="ny-icon-btn" data-close aria-label="Close"> <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path></svg> </button> </div> <div class="ny-dialog-body"> <ol class="ny-rules"> <li><span class="ny-rule-i" aria-hidden="true">📛</span><span>Six first names, all common in the <b>same U.S. birth year</b>. Girls and boys are mixed in.</span></li> <li><span class="ny-rule-i" aria-hidden="true">🎚️</span><span>Slide to the year you think they were born and lock it in. The closer you are, the more you score: up to 1,000 a round.</span></li> <li><span class="ny-rule-i" aria-hidden="true">📣</span><span>Stuck? <b>Call two more names</b> for extra clues. That round then tops out at 800.</span></li> </ol>  <p class="muted small">Five rounds a day, from top-10 names down to deep cuts. A new puzzle unlocks every day at <span data-ref="resetLocal">08:00 UTC</span><span data-ref="resetSuffix"></span>.</p> <div class="ny-help-actions"> <button type="button" class="btn btn-primary btn-block" data-close autofocus>Let&#39;s play</button> <a class="ny-help-more" href="/how-to-play/">Full rules and scoring table</a> </div> </div> </dialog> <script type="module" src="/_astro/GameApp.astro_astro_type_script_index_0_lang.BQcz5Ydm.js"></script> <section class="wrap ny-about" aria-labelledby="about-h"> <div class="prose"> <h2 id="about-h">A daily name game built on real birth records</h2> <p>
+NameYear is a daily guessing game about American first names. Each round shows a class roster of six first
+        names, three girls and three boys, that were all common in the same birth year. Slide to the year you think
+        they were born and lock it in. The closer you get, the more points you score: up to 5,000 a day across five
+        rounds that run from top-10 favorites to deep cuts.
+</p> <p>
+Every roster comes from the U.S. Social Security Administration's baby-name data, which counts the first names
+        on Social Security card applications for babies born in the U.S. Answers fall between 1935 and 2025, and
+        the slider runs from 1925. A new puzzle unlocks every day at 08:00 UTC, and everyone gets the same one.
+</p> <p class="ny-about-links"> <a href="/how-to-play/">How to play</a> <a href="/years/">Popular names by year</a> <a href="/names/">Name histories</a> <a href="/data/">About the data</a> </p> </div> </section>  </main> <footer class="site-footer" data-astro-cid-5hce7sga> <div class="wrap" data-astro-cid-5hce7sga> <nav class="foot-links" aria-label="Footer" data-astro-cid-5hce7sga> <a href="/how-to-play/" data-astro-cid-5hce7sga>How to play</a> <a href="/years/" data-astro-cid-5hce7sga>Years</a> <a href="/names/" data-astro-cid-5hce7sga>Names</a> <a href="/about/" data-astro-cid-5hce7sga>About</a> <a href="/data/" data-astro-cid-5hce7sga>Data</a> <a href="/privacy/" data-astro-cid-5hce7sga>Privacy</a> <a href="/terms/" data-astro-cid-5hce7sga>Terms</a> <a href="/contact/" data-astro-cid-5hce7sga>Contact</a> <a href="/privacy/#choices" id="privacy-choices" data-astro-cid-5hce7sga>Privacy choices</a> </nav> <p class="muted small" data-astro-cid-5hce7sga>Name data: U.S. Social Security Administration (public domain). NameYear is an independent project and is not affiliated with or endorsed by the SSA.</p> </div> </footer> <script>(function(){const client = "ca-pub-7036871703772046";
+
+        // Fills manual ad units (AdSlot.astro): one request per visible unit, in page order. The AdSense loader is
+        // added only once a unit is actually shown, so pages without one (the game on phones, challenge links)
+        // never load it and can't get auto-placed ads.
+        (function () {
+          var loaded = false;
+          // Global Privacy Control: non-personalized ads only. Has to be set before the first push.
+          if (navigator.globalPrivacyControl === true) {
+            (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+          }
+          function loadAdsense() {
+            if (loaded) return;
+            loaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.crossOrigin = 'anonymous';
+            s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(client);
+            document.head.appendChild(s);
+          }
+          window.nyAds = function (includeDeferred) {
+            var slots = document.querySelectorAll('.ad-slot');
+            for (var i = 0; i < slots.length; i++) {
+              var slot = slots[i];
+              var ins = slot.querySelector('ins.ny-ad');
+              if (!ins || ins.classList.contains('adsbygoogle')) continue; // missing or already requested
+              if (slot.hasAttribute('data-defer') && !includeDeferred) continue; // the page fills it later
+              if (slot.offsetWidth === 0) continue; // hidden by CSS or inside a hidden view
+              loadAdsense();
+              // AdSense fills the first ins.adsbygoogle it hasn't processed, so the class goes on right before
+              // each push: a hidden unit earlier in the page can never take a visible unit's ad.
+              ins.classList.add('adsbygoogle');
+              (window.adsbygoogle = window.adsbygoogle || []).push({});
+            }
+          };
+          window.nyAds(false);
+
+          // Footer "Privacy choices": reopens Google's consent message (EEA/UK/CH) or its U.S. state opt-out dialog.
+          // Both come with the AdSense tag, so it is loaded on demand. If no message shows up (blocked, or none
+          // published in AdSense > Privacy & messaging), the link falls through to the choices section of /privacy/.
+          var choices = document.getElementById('privacy-choices');
+          if (choices) {
+            choices.addEventListener('click', function (e) {
+              e.preventDefault();
+              var href = choices.getAttribute('href');
+              var opened = false;
+              var fallback = setTimeout(function () { if (!opened) location.href = href; }, 4000);
+              var done = function () { opened = true; clearTimeout(fallback); };
+              loadAdsense();
+              window.googlefc = window.googlefc || {};
+              window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+              window.googlefc.callbackQueue.push({
+                CONSENT_API_READY: function () {
+                  var fc = window.googlefc;
+                  var revoke = function () {
+                    if (typeof fc.showRevocationMessage === 'function') { done(); fc.showRevocationMessage(); }
+                  };
+                  var usOptOut = function () {
+                    var us = fc.usstatesoptout;
+                    if (!us || typeof us.openConfirmationDialog !== 'function') return false;
+                    done();
+                    us.openConfirmationDialog(function () {});
+                    return true;
+                  };
+                  if (typeof window.__tcfapi !== 'function') { if (!usOptOut()) revoke(); return; }
+                  var asked = false;
+                  window.__tcfapi('addEventListener', 2, function (tc, ok) {
+                    if (asked || !tc) return;
+                    asked = true;
+                    if (tc.listenerId != null) window.__tcfapi('removeEventListener', 2, function () {}, tc.listenerId);
+                    if (ok && tc.gdprApplies) revoke();
+                    else if (!usOptOut()) revoke();
+                  });
+                },
+              });
+            });
+          }
+        })();
+      })();</script> <script>(function(){const key = "ny:v1:lang";
+
+      // Header language toggle: remember the choice, and carry ?d=... and #... over (past puzzles, results, challenges).
+      document.querySelectorAll('[data-lang-switch]').forEach(function (a) {
+        a.addEventListener('click', function () {
+          try { localStorage.setItem(key, a.getAttribute('data-lang-switch')); } catch (e) { /* not remembered */ }
+          if (a.hasAttribute('data-keep')) a.href = a.pathname + location.search + location.hash;
+        });
+      });
+    })();</script>  </body> </html> 
